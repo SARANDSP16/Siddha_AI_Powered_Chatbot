@@ -117,7 +117,6 @@ Main files:
 - `app.py` - Streamlit UI
 - `rag.py` - vectorless RAG pipeline
 - `siddha_tree.json` - structured knowledge tree
-- `INTERVIEW.md` - full interview explanation of the project
 
 ---
 
@@ -241,6 +240,8 @@ GRO_API_KEY = "your_groq_api_key_here"
 
 The app will automatically load `siddha_tree.json` from the project root.
 
+link - https://ai-siddha.streamlit.app/
+
 ---
 
 ## Why This Project Is Interesting
@@ -259,37 +260,3 @@ The app will automatically load `siddha_tree.json` from the project root.
 - Some lesson labels are LLM-generated and can be refined manually
 - The system depends on API availability from Groq
 - This is an educational/demo assistant and not a replacement for professional medical advice
-
----
-
-## Future Improvements
-
-- classify the remaining 282 rows
-- add lesson subtopics
-- add evaluation for lesson and node selection quality
-- add feedback collection from users
-- add admin workflow for updating the tree
-- add fallback search for uncategorized records
-
----
-
-## Interview Support
-
-A full interview explanation is included here:
-
-- [`INTERVIEW.md`](./INTERVIEW.md)
-
-That file explains:
-
-- architecture
-- design choices
-- why vectorless RAG was used
-- deployment
-- likely interview questions and answers
-
----
-
-## Safety Note
-
-This project uses Siddha medicine Q&A data for retrieval and demo purposes.  
-It should not be treated as professional medical diagnosis or emergency medical guidance.
